@@ -1,0 +1,13 @@
+The best way to get rid of this file forever:
+
+Make a global .gitignore file:
+
+echo .DS_Store >> ~/.gitignore_global
+Let Git know that you want to use this file for all of your repositories:
+
+git config --global core.excludesfile ~/.gitignore_global
+That’s it! .DS_Store will be ignored in all repositories.
+
+
+
+这里是全局忽略.DS_Store文件夹
