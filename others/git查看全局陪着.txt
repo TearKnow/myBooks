@@ -1,0 +1,7 @@
+git config --list --global
+
+
+yefei@xiaoyiyi myBooks % git config --list --global
+core.excludesfile=/Users/yefei/.gitignore_global
+user.name=Jack
+user.email=904916790@qq.com
